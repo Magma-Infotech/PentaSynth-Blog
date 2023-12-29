@@ -1,0 +1,72 @@
+{
+  "jobs": {
+    "engineering": [
+      {
+        "title": "Full Stack Developer - Project Alpha",
+        "location": "San Francisco, CA"
+      },
+      {
+        "title": "iOS/Swift Developer - Project Alpha",
+        "location": "San Francisco, CA"
+      },
+      {
+        "title": "JavaScript Developer",
+        "location": "Toronto, Canada"
+      },
+      {
+        "title": "Ruby on Rails Programmer",
+        "location": "Remote"
+      },
+      {
+        "title": "Senior QA Engineer",
+        "location": "London, United Kingdom"
+      }
+    ],
+    "marketing": [
+      {
+        "title": "B2B Marketing Director",
+        "location": "Toronto, Canada"
+      },
+      {
+        "title": "Content Marketing Manager - Video",
+        "location": "London, United Kingdom"
+      },
+      {
+        "title": "Marketing Intern",
+        "location": "Toronto, Canada"
+      }
+    ],
+    "finance": [
+      {
+        "title": "Junior Financial Analyst",
+        "location": "San Francisco, CA"
+      },
+      {
+        "title": "Senior Financial Analyst",
+        "location": "San Francisco, CA"
+      }
+    ],
+    "customer_service": [
+      {
+        "title": "Administrative Support Manager",
+        "location": "London, United Kingdom"
+      },
+      {
+        "title": "Customer Service Representative",
+        "location": "Remote"
+      },
+      {
+        "title": "Quality Analyst - Call Center",
+        "location": "Remote"
+      }
+    ]
+  },
+  "perks": {
+    "flexible_work_hours": "Want to take Friday off or work from home all week? No problem! We trust our employees and truly believe in work-life balance as a key to productive work.",
+    "healthcare": "Our comprehensive healthcare package includes dental coverage and options to cover your whole family.",
+    "best_working_environment": "Our modern offices have everything you need in your daily work: sit/stand workstations, free food (drinks/coffee, fruits, cookies, etc.), spaces to relax, PlayStation, ping-pong table, and free parking for your car or a bike.",
+    "room_to_grow": "We make sure everyone has an opportunity to grow. Found something you want to learn? Great! We'll pay for your training/education.",
+    "everyone_has_a_voice": "Innovation doesn't have a hierarchy. We make sure everyone is heard, considered and respected.",
+    "sports": "We subsidize your gym membership, or fees for any other sport you prefer. Also, you're welcome to join our basketball team playing once a week near the office."
+  }
+}
