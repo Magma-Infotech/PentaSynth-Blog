@@ -8,7 +8,7 @@ export default function Header() {
         className="header d-flex align-items-center fixed-top"
       >
         <div className="container-fluid container-xl d-flex align-items-center justify-content-between">
-          <a href="index.html" className="logo d-flex align-items-center">
+          <a href="/" className="logo d-flex align-items-center">
             {/* <img src="assets/img/logo.png" alt="">  */}
             <h1>ZenBlog</h1>
           </a>
@@ -16,13 +16,13 @@ export default function Header() {
           <nav id="navbar" className="navbar">
             <ul>
               <li>
-                <a href="index.html">Blog</a>
+                <a href="/">Blog</a>
               </li>
               <li>
-                <a href="single-post.html">Single Post</a>
+                <a href="/trending">Single Post</a>
               </li>
               <li className="dropdown">
-                <a href="category.html">
+                <a href="/categories">
                   <span>Categories</span>{" "}
                   <i className="bi bi-chevron-down dropdown-indicator"></i>
                 </a>
@@ -69,10 +69,10 @@ export default function Header() {
               </li>
 
               <li>
-                <a href="about.html">About</a>
+                <a href="/about">About</a>
               </li>
               <li>
-                <a href="contact.html">Contact</a>
+                <a href="/contact">Contact</a>
               </li>
             </ul>
           </nav>
