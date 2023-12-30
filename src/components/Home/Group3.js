@@ -1,5 +1,50 @@
 import React from "react";
 
+const data = {
+  posts: [
+    {
+      category: "Business",
+      date: "Jul 5th '22",
+      title:
+        "What is the son of Football Coach John Gruden, Deuce Gruden doing Now?",
+      image: "assets/img/post-landscape-3.jpg",
+      link: "single-post.html",
+      content:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio placeat exercitationem magni voluptates dolore. Tenetur fugiat voluptates quas, nobis error deserunt aliquam temporibus sapiente, laudantium dolorum itaque libero eos deleniti?",
+      author: {
+        name: "Wade Warren",
+        image: "assets/img/person-4.jpg",
+      },
+    },
+    {
+      category: "Business",
+      date: "Jul 5th '22",
+      title: "11 Work From Home Part-Time Jobs You Can Do Now",
+      image: "assets/img/post-landscape-5.jpg",
+      link: "single-post.html",
+      author: "Jenny Wilson",
+    },
+    {
+      category: "Business",
+      date: "Jul 5th '22",
+      title: "5 Great Startup Tips for Female Founders",
+      image: "assets/img/post-landscape-7.jpg",
+      link: "single-post.html",
+      author: "Jenny Wilson",
+    },
+    {
+      category: "Business",
+      date: "Jul 5th '22",
+      title: "How to Avoid Distraction and Stay Focused During Video Calls?",
+      image: "assets/img/post-landscape-7.jpg",
+      link: "single-post.html",
+      content:
+        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero temporibus repudiandae, inventore pariatur numquam cumque possimus",
+      author: "Jenny Wilson",
+    },
+  ],
+};
+
 export default function Group3() {
   return (
     <div>

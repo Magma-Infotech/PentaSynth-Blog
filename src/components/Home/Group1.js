@@ -1,5 +1,100 @@
 import React from "react";
 
+const data = {
+  posts: [
+    {
+      category: "Culture",
+      date: "Jul 5th '22",
+      title: "11 Work From Home Part-Time Jobs You Can Do Now",
+      image: "assets/img/post-landscape-1.jpg",
+      link: "single-post.html",
+      content:
+        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero temporibus repudiandae, inventore pariatur numquam cumque possimus exercitationem? Nihil tempore odit ab minus eveniet praesentium, similique blanditiis molestiae ut saepe perspiciatis officia nemo, eos quae cumque. Accusamus fugiat architecto rerum animi atque eveniet, quo, praesentium dignissimos",
+      author: {
+        name: "Cameron Williamson",
+        image: "assets/img/person-1.jpg",
+      },
+    },
+    {
+      category: "Sport",
+      date: "Jul 5th '22",
+      title: "Let’s Get Back to Work, New York",
+      image: "assets/img/post-landscape-2.jpg",
+      link: "single-post.html",
+    },
+    {
+      category: "Food",
+      date: "Jul 17th '22",
+      title: "How to Avoid Distraction and Stay Focused During Video Calls?",
+      image: "assets/img/post-landscape-5.jpg",
+      link: "single-post.html",
+    },
+    {
+      category: "Design",
+      date: "Mar 15th '22",
+      title:
+        "Why Craigslist Tampa Is One of The Most Interesting Places On the Web?",
+      image: "assets/img/post-landscape-7.jpg",
+      link: "single-post.html",
+    },
+    {
+      category: "Business",
+      date: "Jul 5th '22",
+      title: "6 Easy Steps To Create Your Own Cute Merch For Instagram",
+      image: "assets/img/post-landscape-3.jpg",
+      link: "single-post.html",
+    },
+    {
+      category: "Tech",
+      date: "Mar 1st '22",
+      title: "10 Life-Changing Hacks Every Working Mom Should Know",
+      image: "assets/img/post-landscape-6.jpg",
+      link: "single-post.html",
+    },
+    {
+      category: "Travel",
+      date: "Jul 5th '22",
+      title: "5 Great Startup Tips for Female Founders",
+      image: "assets/img/post-landscape-8.jpg",
+      link: "single-post.html",
+    },
+  ],
+  trending: [
+    {
+      number: 1,
+      title: "The Best Homemade Masks for Face (keep the Pimples Away)",
+      author: "Jane Cooper",
+      link: "single-post.html",
+    },
+    {
+      number: 2,
+      title:
+        "17 Pictures of Medium Length Hair in Layers That Will Inspire Your New Haircut",
+      author: "Wade Warren",
+      link: "single-post.html",
+    },
+    {
+      number: 3,
+      title:
+        "13 Amazing Poems from Shel Silverstein with Valuable Life Lessons",
+      author: "Esther Howard",
+      link: "single-post.html",
+    },
+    {
+      number: 4,
+      title: "9 Half-up/half-down Hairstyles for Long and Medium Hair",
+      author: "Cameron Williamson",
+      link: "single-post.html",
+    },
+    {
+      number: 5,
+      title: "Life Insurance And Pregnancy: A Working Mom’s Guide",
+      author: "Jenny Wilson",
+      link: "single-post.html",
+    },
+  ],
+};
+
 export default function Group1() {
   return (
     <div>

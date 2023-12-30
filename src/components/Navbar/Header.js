@@ -3,10 +3,7 @@ import React from "react";
 export default function Header() {
   return (
     <div>
-      <header
-        id="header"
-        className="header d-flex align-items-center fixed-top"
-      >
+      <header id="header" className="header d-flex align-items-center">
         <div className="container-fluid container-xl d-flex align-items-center justify-content-between">
           <a href="/" className="logo d-flex align-items-center">
             {/* <img src="assets/img/logo.png" alt="">  */}
